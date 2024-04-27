@@ -2,7 +2,11 @@
 直接进入模板题，读题，学习题解即可。
 [P5788 【模板】单调栈 - 洛谷](https://www.luogu.com.cn/problem/P5788)
 
+或者看看[算法学习笔记(67): 单调栈 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/346536592)
+
 # 单调栈是干啥的
+
+##   O(n) 解决数组的**NGE问题**（Next Greater Element）
 给长度为n的数组a，单调栈可以离线地O(n)求出第i个元素之前（之后）第一个大于（小于、大于等于、小于等于）该元素的元素的下标f(i)
 
 ### 实现
@@ -34,6 +38,6 @@ for(int i=n-1;i>=0;i--) //从后往前看
 ## 几乎是模板题
 [503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-ii/description/)
 
-## 非模板题
+## 只会单调栈就能做的练习题
 [42. 接雨水 - 力扣（LeetCode）](https://leetcode.cn/problems/trapping-rain-water/description/)
 
