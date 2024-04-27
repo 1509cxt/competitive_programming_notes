@@ -1,1 +1,1 @@
-# compatitive_programming_notes
+# competitive_programming_notes
