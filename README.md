@@ -8,39 +8,42 @@ There are some notes (mainly in Chinese) during my personal exercise in competit
 
 胡乱列一下接下来的学习计划：
 
-|  item   | status  |
-|  ----  | ----  |
-| 单调栈  |  |
-| 双指针  |  |
-| 单调队列 |  |
-| meet in the middle |  |
-| 悬线法 / 扫描线？ |  |
-|C++(?) STL 常用内容||
-|并查集（路径压缩）||
-|二分查找&二分答案||
-|BFS||
-|DFS||
-|单源带权最短路Dijktra(堆优化)||
-|全源最短路Floyd||
-|最小生成树Kruskal||
-|拓扑排序||
-|矩阵乘法快速幂||
-|GCD欧几里得算法||
-|零一背包||
-|完全背包||
-|多重背包|
-|LIS&LCS||
-|区间DP、环形DP||
-|树上、图上DP||
-|状态压缩DP||
-|前缀和&差分||
-|离散化||
-|ST表&倍增||
-|树状数组||
-|线段树||
-|字典树 (Trie)||
-|约瑟夫问题||
-|哈夫曼树&编码||
+| item                | status |
+| ------------------- | :------: |
+| C++(?) STL 常用语法内容     |  ✅   |
+| 单调栈                 |        |
+| 双指针                 |        |
+| 单调队列                |        |
+| meet in the middle  |        |
+| 悬线法 / 扫描线？          |        |
+| 并查集（路径压缩）           |        |
+| 二分查找&二分答案           |        |
+| BFS                 |        |
+| DFS                 |        |
+| 单源带权最短路Dijktra(堆优化) |        |
+| 全源最短路Floyd          |        |
+| 最小生成树Kruskal        |        |
+| 拓扑排序                |        |
+| 矩阵乘法快速幂             |        |
+| GCD欧几里得算法           |        |
+| 零一背包                |        |
+| 完全背包                |        |
+| 多重背包                |        |
+| LIS&LCS             |        |
+| 区间DP、环形DP           |        |
+| 树上、图上DP             |        |
+| 状态压缩DP              |        |
+| 前缀和&差分              |        |
+| 离散化                 |        |
+| ST表&倍增              |        |
+| 树状数组                |        |
+| 线段树                 |        |
+| 字典树 (Trie)          |        |
+| 约瑟夫问题               |        |
+| 哈夫曼树&编码             |        |
+| 素数筛                 |        |
+| KMP                 |        |
+| Manacher            |        |
 
 不在近期学习计划内，但是仍然也很感兴趣的：
 
@@ -50,11 +53,8 @@ There are some notes (mainly in Chinese) during my personal exercise in competit
 |计数DP||
 |概率DP||
 |插头DP||
-|素数筛||
 |分块||
 |质因数分解||
-|KMP||
-|Manacher||
 |扩展KMP||
 |AC自动机||
 |后缀数组||
@@ -63,6 +63,7 @@ There are some notes (mainly in Chinese) during my personal exercise in competit
 |各种平衡树||
 |可持久化数据结构||
 |K-D Tree||
+|支配树||
 |树链剖分||
 |启发式合并||
 |图的连通性相关||
