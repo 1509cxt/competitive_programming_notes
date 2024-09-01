@@ -30,6 +30,16 @@ vector<int> v[1000];
 v[1].push_back(1);
 cout<<v[1][0]<<endl;
 ```
+### unique 去重
+```cpp
+std::vector<int> vec = {1, 2, 2, 3, 4, 4, 4, 5}; 
+// 先排序 
+std::sort(vec.begin(), vec.end()); 
+// 使用 std::unique 移除重复元素 
+auto new_end = std::unique(vec.begin(), vec.end()); 
+// 删除多余的元素, 代码执行后vec.end()会随之改变。
+vec.erase(new_end, vec.end());
+```
 
 ## queue
 FIFO
@@ -65,6 +75,7 @@ for(int i=0;i<30;++i){
 
 ## unordered_map
 The algorithm inside is hash.
+unordered_map<key_type, value_type>中，keytype必须是不可变的（可以是string，不可以是数组、vector），value_type随意。
 .insert(pair< , > ( , ) ) O(1)
 .find(...) // ... in type of key O(1) //if it doesn't exist , it returns `.end()`
 .erase() O(1)
@@ -117,3 +128,8 @@ The algorithm inside is binary search.
 O(log(size))
 could be used in `map`, `set` , sorted `vector`, sorted array
 ![[Pasted image 20240901171943.png]]
+
+# 练习题 
+[49. 字母异位词分组 - 力扣（LeetCode）](https://leetcode.cn/problems/group-anagrams/description/)
+
+[128. 最长连续序列 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-consecutive-sequence/description/?envType=study-plan-v2&envId=top-100-liked)
