@@ -2,16 +2,16 @@
 
 There are some notes (mainly in Chinese) during my personal exercise in competitive programming in this repository.
 
-这里会有一些我练习OI/XCPC题目的中文笔记（大龄退役老废物了）。这里所有的练习代码都是写的C++(主要是用STL)。最近进行练习的目的有二：一是准备秋招了，二是准备百度之星。
+这里会有一些我练习OI/XCPC题目的中文笔记（大龄退役老废物了）。这里所有的练习代码都是写的C++(主要是用STL)。最近进行练习的目的就是找工作。
 
 笔记是用Obsidian写的。为了更舒适的阅读体验，我安装了[Editor Syntax Highlight Obsidian Plugin](https://github.com/deathau/cm-editor-syntax-highlight-obsidian)
 
 胡乱列一下接下来的学习计划：
 
 | item                | status |
-| ------------------- | :------: |
-| C++(?) STL 常用语法内容     |  ✅   |
-| 单调栈                 |        |
+| ------------------- | :----: |
+| C++(?) STL 常用语法内容   |   ✅    |
+| 单调栈                 |   ✅    |
 | 双指针                 |        |
 | 单调队列                |        |
 | meet in the middle  |        |
@@ -47,37 +47,40 @@ There are some notes (mainly in Chinese) during my personal exercise in competit
 
 不在近期学习计划内，但是仍然也很感兴趣的：
 
-|  item   | status  |
-|----|----|
-|数位DP||
-|计数DP||
-|概率DP||
-|插头DP||
-|分块||
-|质因数分解||
-|扩展KMP||
-|AC自动机||
-|后缀数组||
-|后缀自动机||
-|表达式求值||
-|各种平衡树||
-|可持久化数据结构||
-|K-D Tree||
-|支配树||
-|树链剖分||
-|启发式合并||
-|图的连通性相关||
-|二分图相关||
-|网络流相关||
-|随机化相关算法||
-|IDA\*等高级搜索算法||
-|裴蜀定理||
-|乘法逆元||
-|线性同余方程||
-|中国剩余定理||
-|生成函数||
-|FFT||
+| item         | status |
+| ------------ | ------ |
+| 数位DP         |        |
+| 计数DP         |        |
+| 概率DP         |        |
+| 插头DP         |        |
+| 分块           |        |
+| 质因数分解        |        |
+| 扩展KMP        |        |
+| AC自动机        |        |
+| 后缀数组         |        |
+| 后缀自动机        |        |
+| 表达式求值        |        |
+| 各种平衡树        |        |
+| 可持久化数据结构     |        |
+| K-D Tree     |        |
+| 支配树          |        |
+| 树链剖分         |        |
+| 启发式合并        |        |
+| 图的连通性相关      |        |
+| 二分图相关        |        |
+| 网络流相关        |        |
+| 随机化相关算法      |        |
+| IDA\*等高级搜索算法 |        |
+| 裴蜀定理         |        |
+| 乘法逆元         |        |
+| 线性同余方程       |        |
+| 中国剩余定理       |        |
+| 生成函数         |        |
+| FFT          |        |
 
+代码练习记录：
+before 2024.9，五个题
+2024.9.1 ，三个leetcode medium
 
 
 
