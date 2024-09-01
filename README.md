@@ -78,12 +78,9 @@ There are some notes (mainly in Chinese) during my personal exercise in competit
 | 生成函数         |        |
 | FFT          |        |
 
-：
 
-before 2024.9，五个题
 
-2024.9.1 ，三个leetcode medium
-
+### 代码练习题目数量记录
 | 日期         | 代码练习记录 |
 | ------------ | ------ |
 | before 2024.9    |    五个题    |
