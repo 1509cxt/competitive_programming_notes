@@ -7,7 +7,9 @@
 # 单调栈是干啥的
 
 ##   O(n) 解决数组的**NGE问题**（Next Greater Element）
-给长度为n的数组a，单调栈可以离线地O(n)求出第i个元素之前（之后）第一个大于（小于、大于等于、小于等于）该元素的元素的下标f(i)
+给长度为n的数组a，单调栈可以离线地O(n)求出第i个元素之前（之后）第一个大于（小于、大于等于、小于等于）该元素的元素的下标f(i)。
+
+对于“之前”的问题，这个问题甚至可以【在线】对每个元素求解。
 
 ### 实现
 例：求每个数后第1个大于它的数
@@ -37,6 +39,8 @@ for(int i=n-1;i>=0;i--) //从后往前看
 
 ## 几乎是模板题
 [503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode.cn/problems/next-greater-element-ii/description/)
+
+[901. 股票价格跨度 - 力扣（LeetCode）](https://leetcode.cn/problems/online-stock-span/description/)
 
 ## 只会单调栈就能做的练习题
 [42. 接雨水 - 力扣（LeetCode）](https://leetcode.cn/problems/trapping-rain-water/description/)
