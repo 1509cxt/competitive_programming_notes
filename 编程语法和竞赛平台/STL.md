@@ -31,6 +31,7 @@ v[1].push_back(1);
 cout<<v[1][0]<<endl;
 ```
 ### unique 去重
+【记得使用unique返回的迭代器去做erase】
 ```cpp
 std::vector<int> vec = {1, 2, 2, 3, 4, 4, 4, 5}; 
 // 先排序 
