@@ -74,6 +74,23 @@ for(int i=0;i<30;++i){
 }
 ```
 
+## deque
+- Random access - constant O(1).
+- Insertion or removal of elements at the end or beginning - constant O(1).
+- Insertion or removal of elements - linear O(n).
+```cpp
+deque<int> q;
+for(int i=0;i<30;++i) {
+	q.push_front();
+	q.push_back();
+}
+cout<<q[15];
+for(int i=0;i<30;++i){
+    q.pop_front();
+    q.pop_back();
+}
+```
+
 ## unordered_map
 The algorithm inside is hash.
 unordered_map<key_type, value_type>中，keytype必须是不可变的（可以是string，不可以是数组、vector），value_type随意。
