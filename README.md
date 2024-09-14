@@ -13,7 +13,7 @@ There are some notes (mainly in Chinese) during my personal exercise in competit
 | C++(?) STL 常用语法内容   |   ✅    |
 | 单调栈                 |   ✅    |
 | 双指针                 |        |
-| 单调队列                |        |
+| 单调队列                |   ✅   |
 | meet in the middle  |        |
 | 悬线法 / 扫描线？          |        |
 | 并查集（路径压缩）           |        |
